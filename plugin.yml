@@ -1,0 +1,16 @@
+name: AdvancedKills
+main: kenygamer\AdvancedKills\Main
+api: 3.9.0
+version: 1.0
+depend: [FormAPI]
+softdepend: [EconomyAPI]
+author: kenygamer
+description: The next generation plugin for kill management in your server.
+load: POSTWORLD
+permissions:
+  advancedkills.money:
+    description: "Permission to earn money by killing other players"
+    default: true
+  advancedkills.command.kdr:
+    description: "Shows your kills, deaths and KDR."
+    default: true
